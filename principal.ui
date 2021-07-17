@@ -7,13 +7,13 @@
     <x>0</x>
     <y>0</y>
     <width>650</width>
-    <height>550</height>
+    <height>570</height>
    </rect>
   </property>
   <property name="minimumSize">
    <size>
     <width>650</width>
-    <height>550</height>
+    <height>570</height>
    </size>
   </property>
   <property name="maximumSize">
@@ -30,6 +30,9 @@
     <normaloff>:/Recursos/Recursos/analitica.png</normaloff>:/Recursos/Recursos/analitica.png</iconset>
   </property>
   <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">background-color: qconicalgradient(cx:0.5, cy:0.5, angle:312.3, stop:0 rgba(250, 229, 163, 255), stop:1 rgba(255, 218, 196, 255));</string>
+   </property>
    <widget class="QLabel" name="cuadro">
     <property name="geometry">
      <rect>
@@ -116,7 +119,7 @@
      <item>
       <widget class="QPushButton" name="cmdGraficar">
        <property name="styleSheet">
-        <string notr="true">background-color: rgb(188, 255, 216);</string>
+        <string notr="true">background-color: rgb(255, 251, 199);</string>
        </property>
        <property name="text">
         <string>Graficar</string>
@@ -151,6 +154,10 @@
    </property>
    <property name="windowTitle">
     <string>toolBar</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 251, 199);
+</string>
    </property>
    <attribute name="toolBarArea">
     <enum>TopToolBarArea</enum>
